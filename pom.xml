@@ -8,11 +8,11 @@
 		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.open</groupId>
 	<artifactId>sampleApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sampleApi</name>
-	<description>service1</description>
+	<description>sampleApi</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.2</spring-cloud.version>
@@ -35,6 +35,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+    		<groupId>org.projectlombok</groupId>
+    		<artifactId>lombok</artifactId>
+    		<version>1.18.16</version>
+    		<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
